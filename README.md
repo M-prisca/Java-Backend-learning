@@ -27,11 +27,9 @@ The course I am following is provided through **Hyperskill**, a learning platfor
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 The repository is organized into sections based on the topics covered throughout the course.
-
-# Java Learning Journey ☕
 
 ## Overview
 
