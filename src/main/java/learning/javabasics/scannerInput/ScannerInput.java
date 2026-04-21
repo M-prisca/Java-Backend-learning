@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class ScannerInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
+        String firstName = sc.next();
+        String lastName = sc.next();
 
-        System.out.println("hello, " + name + "!");
+        System.out.println("hello, " + firstName + " " + lastName + "!");
         sc.close();
     }
 
