@@ -5,17 +5,20 @@ import java.util.Scanner;
 public class ScannerInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        double b = sc.nextDouble();
-        boolean c = sc.nextBoolean();
+
+        System.out.print("Enter a word: ");
+        String word = sc.next();
+
+        System.out.print("Enter a sentence: ");
+        sc.nextLine();
+        String sentence = sc.nextLine();
+
+        System.out.println(word + " " + sentence);
 
         sc.close();
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
 
     }
 
 }
 
-// specifying the data type of the input values with next().
+// Printing a whole sentence containing spaces with nextLine().
