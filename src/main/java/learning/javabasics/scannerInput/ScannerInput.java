@@ -5,11 +5,17 @@ import java.util.Scanner;
 public class ScannerInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String firstName = sc.next();
-        String lastName = sc.next();
+        int a = sc.nextInt();
+        double b = sc.nextDouble();
+        boolean c = sc.nextBoolean();
 
-        System.out.println("hello, " + firstName + " " + lastName + "!");
         sc.close();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+
     }
 
 }
+
+// specifying the data type of the input values with next().
